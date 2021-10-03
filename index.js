@@ -27,7 +27,8 @@ app.get('/people', (req, res) => {
     ]});
 });
 
+const PORT = process.env.PORT || 3000 ;
 // port where app is served
-app.listen(3000, () => {
+app.listen(PORT , () => {
     console.log('The web server has started on port 3000');
 });
