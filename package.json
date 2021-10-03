@@ -9,6 +9,7 @@
   "author": "wiz",
   "license": "ISC",
   "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4"
   }
